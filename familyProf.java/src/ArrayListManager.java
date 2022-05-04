@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class ArrayListManager {
   public static void main(String[] args) {
     // 1. ArrayList の初期化:
@@ -11,7 +10,7 @@ public class ArrayListManager {
     // 変数「isListEmpty」を宣言し、「list」が空かどうかの判定結果を代入
     // 「isListEmpty」の内容を表示
     boolean isListEmpty = list.isEmpty();
-    if (isListEmpty){
+    if (isListEmpty) {
       System.out.printf("list の要素が空かどうか => %b %n", isListEmpty);
     }
     // 3. ArrayList インスタンスに要素を追加
@@ -32,7 +31,7 @@ public class ArrayListManager {
     // 変数「hasKeyword」を宣言し、「list」の要素に「keyword」が含まれるかどうかの判定結果を代入
     boolean hasKeyword = list.contains(keyword);
     // 「hasKeyword」の内容を表示
-      System.out.printf("list の要素に %s があるかどうか => %b %n", keyword, hasKeyword);
+    System.out.printf("list の要素に %s があるかどうか => %b %n", keyword, hasKeyword);
     // 6. ArrayList インスタンスの指定インデックスの要素を取得
     // 変数「targetIndex」を宣言し、「2」を代入
     int targetIndex = 2;
@@ -58,4 +57,3 @@ public class ArrayListManager {
     }
   }
 }
-
