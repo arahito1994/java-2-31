@@ -31,22 +31,6 @@ public class hitToTheNumber {
         }
         System.out.printf("残念!! 正解は %d でした! %n", correctNum);
         scan.close();
-        
-      //     if (userInputNum != correctNum) {
-      //         if (userInputNum < correctNum) {
-      //           System.out.println("もっと大きい数字だよ");
-      //           System.out.println();
-      //         }else{
-      //           System.out.println("もっと小さい数字だよ");
-      //           System.out.println();
-      //         }
-      //     }else{
-      //        System.out.printf("すごい!! %d 回で当てられちゃった! %n", tryNum + 1);
-      //        return;
-      //     }
-      // }
-      // System.out.printf("残念!! 正解は %d でした! %n", correctNum);
-      // scan.close();
   }
 }
 
