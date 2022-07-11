@@ -31,7 +31,7 @@ public class hitToTheNumbers {
         // 入力された数字を判定する
         if (userInputNum == correctNum) {
           System.out.printf("すごい!! %d 回で当てられちゃった! %n", tryNum + 1);
-          // return;
+           return;
         }
         else if (userInputNum < correctNum) {
           System.out.println("もっと大きい数字だよ");
